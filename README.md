@@ -10,9 +10,9 @@ To build your system, you will need to follow these instructions:
 ```bash
 git clone https://github.com/flip-fast/bootstrap.git
 ```
-2. Clone source code:
+2. Change directory to Bootstrap:
 ```bash
- ./sync_code.sh
+cd bootstrap
 ```
 3. Install all system dependencies:
 ```bash
