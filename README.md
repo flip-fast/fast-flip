@@ -14,9 +14,9 @@ git clone https://github.com/flip-fast/bootstrap.git
 ```bash
 cd bootstrap
 ```
-3. Install all system dependencies:
+3. Check and install all system dependencies:
 ```bash
-./tools/install_system_dependencies.sh
+./check-environment.sh 
 ```
 4. Fetch the code:
 ```bash
