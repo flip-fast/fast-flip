@@ -6,18 +6,25 @@ once booted to desktop, make sure "echo $WAYLAND_DISPLAY" = wayland-0.
 
 ## Quickstart
 To build your system, you will need to follow these instructions:
-
-1. Install all system dependencies:
+1. Clone Bootstrap project:
+```bash
+git clone https://github.com/flip-fast/bootstrap.git
+```
+2. Clone source code:
+```bash
+ ./sync_code.sh
+```
+3. Install all system dependencies:
 ```bash
 ./tools/install_system_dependencies.sh
 ```
-2. Fetch the code:
+4. Fetch the code:
 ```bash
 ./sync_code.sh
 ```
-3. Kick off the build of the container and generate
+5. Kick off the build of the container and generate
 a rootfs image using the default settings. 
 ```bash
 ./build.sh --rebuild-all
 ```
-4. Check build/launch/README.md for instructions to run the VM and container.
+6. Check build/launch/README.md for instructions to run the VM and container.
