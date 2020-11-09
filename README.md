@@ -25,6 +25,6 @@ cd bootstrap
 5. Kick off the build of the container and generate
 a rootfs image using the default settings. 
 ```bash
-./build.sh --rebuild-all
+./build.sh -b --all
 ```
 6. Check build/launch/README.md for instructions to run the VM and container.
